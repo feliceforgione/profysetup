@@ -21,7 +21,7 @@ export default function Home() {
       <Description>
         <h1>
           Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
+          <code className={styles.code}>src/app/page.tsx</code> file
         </h1>
         <div>
           <a
