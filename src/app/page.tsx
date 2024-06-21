@@ -1,14 +1,28 @@
+"use client";
 import Image from "next/image";
+import styled from "styled-components";
 import styles from "./page.module.css";
+
+const Description = styled.div`
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  color: red;
+`;
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
+      <Description>
+        <h1>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
-        </p>
+        </h1>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -26,7 +40,7 @@ export default function Home() {
             />
           </a>
         </div>
-      </div>
+      </Description>
 
       <div className={styles.center}>
         <Image
