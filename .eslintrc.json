@@ -2,15 +2,13 @@
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
-    "prettier",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "prettier"
   ],
   "globals": {
     "React": true
   },
-  "plugins": [
-    "cypress"
-  ],
+  "plugins": ["cypress"],
   "env": {
     "cypress/globals": true
   }
