@@ -16,6 +16,7 @@ const Description = styled.div`
 `;
 
 export default function Home() {
+  //const a = b;
   return (
     <main className={styles.main}>
       <Description>

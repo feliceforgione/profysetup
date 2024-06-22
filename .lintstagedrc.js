@@ -6,5 +6,5 @@ const buildNextLintCommand = (filenames) =>
     .join(" --file ")}`;
 
 module.exports = {
-  "*.{js,jsx,ts,tsx}": [buildNextLintCommand, "eslint", "npm run prettier"],
+  "*.{js,jsx,ts,tsx}": [buildNextLintCommand, "npm run prettier"],
 };
